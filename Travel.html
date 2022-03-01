@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Indian Forte</title>
+       <link rel="stylesheet" type="text/css" href="travelstyle.css">
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <link rel="stylesheet" type="text/css" href="jquery.flipster.min.css">
+    </head>
+  <body>
+    <script src="mymap.js"></script>
+    <script src="countrymap.js"></script>
+    <!--Navigation bar-->
+    <div class="nav-placeholder"></div>
+    <script>
+    $(function(){
+      $(".nav-placeholder").load("nav.html");
+     });
+    </script>   
+    <div class="container d-flex justify-content-center align-items-center h-55">      
+      <div class="row">    
+        <h1>A Tour to India</h1>
+        <!-- <div class="buffer col-12"></div> -->
+        <section class="text-center col-12">
+          <a href="#maps">
+            <button class="map-btn">Go to map</button>
+          </a>
+        </section>
+      </div>
+    </div>    
+      <div class="row map-page" id="maps">
+        <div class="col-8" id="map"></div>
+       <!--Digital clock-->
+       <div class="dig-clock col-md-4">
+        <h4></h4>
+        <div class="clock-placeholder"></div>
+        <script>
+          $(function(){
+            $(".clock-placeholder").load("digitalclock.html");
+          });
+        </script> 
+        </div> 
+      </div>
+        <!-- <div class="gallery">
+            <div class="map-state">
+              <a target="_blank" href="travelimages/adventure.jpg">
+                <img src="travelimages/adventure.jpg" alt="Cinque Terre" width="400" height="200">
+              </a>
+            </div>
+            <div class="map-state">
+              <a target="_blank" href="travelimages/beach.jpg">
+                <img loading="lazy" src="travelimages/beach.jpg" alt="Forest" width="400" height="200">
+              </a>
+            </div>
+            
+            <div class="map-state">
+              <a target="_blank" href="travelimages/agriculture.jpg">
+                <img src="travelimages/agriculture.jpg" alt="Northern Lights" width="400" height="200">
+              </a>
+            </div>
+            
+            <div class="map-state">
+              <a target="_blank" href="travelimages/Animatedcharacter.jpg">
+                <img src="travelimages/Animatedcharacter.jpg" alt="Mountains" width="400" height="200">
+              </a>
+            </div>
+        </div> -->
+    <br><br><h3><strong>Explore your Interest</strong></h3>
+      <div class="zone grid-wrapper">
+        <div class="box zone"><img src="travelimages/heritage.jpg" alt="Heritage">
+          <a href="Heritage.html">
+            <div class="centered">Heritage</div>
+          </a>
+        </div>
+        <div class="box zone"><img src="travelimages/varanasi.jpg" alt="Pilgrimage">
+          <a href="Pilgrimage.html"><div class="centered">Pilgrimage</div>
+          </a>
+        </div>
+        <div class="box zone"><img src="travelimages/UttarPradesh/Rihand dam, Uttar pradesh.jpg" alt="Lakes and Dams">
+          <a href="Lakes&Dams.html"><div class="centered">Lakes and Dams</div>
+          </a>
+        </div>
+        <div class="box zone"><img src="https://i.pinimg.com/736x/57/b1/6c/57b16cd6fc1771464dad3fad7e2f7048--coimbatore-tour-operator.jpg" alt="Theme parks">
+          <a href="ThemeParks.html">
+            <div class="centered">Theme parks</div>
+          </a>
+        </div>
+        <div class="box zone"><img src="travelimages/hillstations.jpg" alt="Hill Stations">
+          <a href="HillStations.html">
+            <div class="centered">Hill Stations</div>
+          </a>
+        </div>
+        <div class="box zone"><img src="travelimages/beach.jpg" alt="Beach">
+          <a href="Beach.html">
+            <div class="centered">Beaches</div>
+          </a>
+        </div>
+        <div class="box zone"><img src="travelimages/Luxury.jpg" alt="Luxury">
+          <a href="Luxury.html">
+            <div class="centered">Luxury</div>
+          </a>
+        </div>
+        <div class="box zone"><img src="travelimages/Festivals&Events.jpg" alt="Festivals&Events">
+          <a href="Festival&Events.html">
+            <div class="centered">Festivals & Events</div>
+          </a>
+        </div>
+        <div class="box zone"><img src="travelimages/adventure.jpg" alt="Adventure">
+          <a href="Adventure.html">
+            <div class="centered">Adventure</div>
+          </a>
+        </div>
+    </div>
+    <h3><strong>Basic information</strong></h3>
+    <div class="zone info grid-wrapper">
+      <div class="box zone"><img src="travelimages/Indian Currency.jpg" alt="Indian Currency">
+        <a href="Basicinfo/indiancurrency.html">
+          <div class="centered">Currency</div>
+        </a>
+      </div>
+      <div class="box zone"><img src="travelimages/Sports.jpg" alt="Sports and Games">
+        <a href="BasicInfo/Sports&Games.html">
+          <div class="centered">Sports and Games</div>
+        </a>
+      </div>
+      <div class="box zone"><img src="travelimages/Zodiac signs.jpg" alt="Zodiac">
+        <a href="BasicInfo/zodiac.html">
+          <div class="centered">Indian Zodiac</div>
+        </a>
+      </div>
+      <div class="box zone"><img src="travelimages/ayurvedha.jpg" alt="Ayurvadha">
+        <a href="BasicInfo/ayurvedha.html">
+          <div class="centered">Ayurvedha</div>
+        </a>
+      </div>
+      <div class="box zone"><img src="travelimages/IndianCusine.jpg" alt="Indian Cusine">
+        <a href="BasicInfo/indiancusine.html">
+          <div class="centered">Indian Cusine</div>
+        </a>
+      </div>
+      <div class="box zone"><img src="travelimages/yoga.jpg" alt="Yoga">
+        <a href="BasicInfo/yoga.html">
+          <div class="centered">Yoga</div>
+        </a>
+      </div>
+        </div>
+    </div>
+    <h3><strong>Indian Highlights</strong> </h3>
+    <div class="highlights">
+      <div class="carousel">
+          <ul>
+              <li><img src="travelimages/SpringinIndia.jpg" alt="India in Spring">
+                <a href="Highlights/IndiainSpring.html">
+                  <div class="carousel-centered">India in Spring</div>
+                </a></li>
+              <li><img src="travelimages/SummerInIndia.jpg" alt="India in Summer">
+                <a href="Highlights/IndiainSummer.html">
+                  <div class="carousel-centered">India in Summer</div>
+                </a>
+              </li>
+              <li><img src="travelimages/AutumninIndia.jpg" alt="India in Autumn">
+                <a href="Highlights/IndiainAutumn.html">
+                  <div class="carousel-centered">India in Autumn</div>
+                </a>
+              </li>
+              <li><img src="travelimages/MonsoonInIndia.jpg" alt="India in Monsoon">
+                <a href="Highlights/IndiainMonsoon.html">
+                  <div class="carousel-centered">India in Monsoon</div>
+                </a>
+              </li>
+              <li><img src="travelimages/WinterinIndia.jpg" alt="India in Winter">
+                <a href="Highlights/IndiainWinter.html">
+                  <div class="carousel-centered">India in Winter</div>
+                </a>
+              </li>  
+          </ul>
+      </div>
+  </div>
+  </div>
+       <!-- footer section -->
+        <section class="footer">
+          <div class="box-container">
+            <div class="boxes">
+              <h3>About us</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sit rerum iure ipsam maiores porro, unde quisquam. Doloremque eligendi repellendus, repellat excepturi deleniti quibusdam? Nihil veniam sequi voluptates aperiam doloribus.</p>
+            </div>
+            <div class="boxes">
+              <h3>Quick links</h3>
+              <a href="#">Home</a>
+              <a href="#">Heritage</a>
+              <a href="#">Pilgrimage</a>
+              <a href="#">Agriculture</a>
+              <a href="#">Yoga</a>
+              <a href="#">Adventure</a>
+              <a href="#"></a>
+            </div>
+            <div class="boxes">
+              <h3>Follow Us</h3>
+              <a href="#">Twitter</a>
+              <a href="#">LinkedIn</a>
+              <a href="#">Facebook</a>
+            </div>
+            <h1 class="credit">Created by <span>The itSHIELD</span></h1>
+        </section>
+       <!-- Chat bot -->
+       <label class="chat-btn" for="check">
+         <a href="chat.html"><i class="fa fa-fw fa-comments-o"></i></a>
+       </label>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.flipster.min.js"></script>
+    <script>
+        $('.carousel').flipster({
+          style:'carousel',
+          spacing: -0.3,
+        });
+       </script>
+</body>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-378139-21"></script> 
+<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-378139-21', { 'anonymize_ip': true }); </script>
+</html>
